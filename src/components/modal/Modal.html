@@ -1,0 +1,14 @@
+<div class="modal-open-btn">
+    <button @click="open = true">Result check</button>
+</div>
+<Teleport to="body">
+    <transition name="fade">
+        <div v-if="open" class="modal-overlay">
+            <div class="modal-content">
+                <h2>Translation result</h2>
+                <p>{{ contents }}</p>
+                <button @click="open = false" class="close-btn">Close</button>
+            </div>
+        </div>
+    </transition>
+</Teleport>

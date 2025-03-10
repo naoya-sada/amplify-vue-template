@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "aws-amplify": "^6.6.6",
+    "axios": "^1.8.1",
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -26,6 +27,7 @@
     "constructs": "^10.3.0",
     "esbuild": "^0.20.2",
     "npm-run-all2": "^6.1.2",
+    "sass-embedded": "^1.85.1",
     "tsx": "^4.7.2",
     "typescript": "^5.4.5",
     "vite": "^5.4.10",
